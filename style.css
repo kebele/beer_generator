@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Indie+Flower&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 2px;
+    margin : 20px
+}
+
+.beer-button button{
+    font-family: 'Indie Flower', cursive;
+	cursor :pointer;
+    border : 1px solid transparent;
+    border-radius: 50%;
+    outline: none;
+    padding: 10px;
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+}
+
+.beer-button button:hover {
+    /* transform: scale(1.4); */
+    transform: rotate(15deg)
+}
+
+.description {
+    width: 400px;
+    
+}
+
+#beer-image img{
+    height: 35vh;
+}
